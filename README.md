@@ -1,6 +1,6 @@
 # Overview
 
-Home for Dynamics NAV RoleTailored Client test cases.
+Framework for testing Dynamics NAV RoleTailored Client.
 
 - Reusable functions are defined in `User.js`.
 - Data for each test case is defined in `Data.xlsx`.
