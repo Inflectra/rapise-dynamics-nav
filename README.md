@@ -15,7 +15,7 @@ All functions are defined in `User.js`. Look into this file for details.
 
 Launches Dynamics NAV desktop client and waits for it to show up on screen.
 
-![Nav Launch RVL](Media/NavLaunch.png)
+![NavLaunch RVL](Media/NavLaunch.png)
 
 ### NavVersion
 
@@ -29,9 +29,17 @@ Closes Dynamics NAV desktop client.
 
 Changes current company. Specify name of a company to open.
 
+![NavChangeCompany RVL](Media/NavChangeCompany.png)
+
+![ChangeCompany RVL](Media/ChangeCompany.png)
+
 ### NavNavigate
 
 Navigates to a specific page using address bar.
+
+![NavNavigate RVL](Media/NavNavigate.png)
+
+![Navigate RVL](Media/Navigate.png)
 
 ### NavFilterGrid
 
