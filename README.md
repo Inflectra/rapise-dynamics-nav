@@ -45,34 +45,63 @@ Navigates to a specific page using address bar.
 
 Applies a filter to table data.
 
+![NavFilterGrid RVL](Media/NavFilterGrid.png)
+
+![FilterGrid RVL](Media/FilterGrid.png)
+
 ### NavSelectFastTab
 
 Selects Fast Tab with a given name.
+
+![NavSelectFastTab RVL](Media/NavSelectFastTab.png)
+
+![SelectFastTab RVL](Media/SelectFastTab.png)
 
 ### NavMaximizeWindow
 
 Maximizes window with a given object.
 
+![NavMaximizeWindow RVL](Media/NavMaximizeWindow.png)
+
 ### NavMakeFileName
 
 Builds full file path.
 
+![NavMakeFileName RVL](Media/NavMakeFileName.png)
+
 ### NavPrintPdf
 
-Prints/saves document to PDF into OutputFiles folder.
+Prints/saves document to PDF into OutputFiles folder. 
+
+![NavPrintPdf RVL](Media/NavPrintPdf.png)
+
+Open this dialog before calling the function.
+
+![PrintPdf RVL](Media/PrintPdf.png)
 
 ### NavAddColumns
 
 Ensures that specific columns are visible. When you call this function the grid should be visible on screen.
 
+![NavAddColumns RVL](Media/NavAddColumns.png)
+
+![Columns RVL](Media/Columns.png)
+
 ### NavRemoveColumns
 
 Ensures that specific columns are NOT visible. When you call this function the grid should be visible on screen.
+
+![NavRemoveColumns RVL](Media/NavRemoveColumns.png)
 
 ### SetOutputValue
 
 Writes key/value pair to Output.xlsx
 
+![SetOutputValue RVL](Media/SetOutputValue.png)
+
 ### GetOutputValue
 
 Reads value from Output.xlsx
+
+![GetOutputValue RVL](Media/GetOutputValue.png)
+
