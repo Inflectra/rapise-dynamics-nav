@@ -31,6 +31,8 @@ Changes current company. Specify name of a company to open.
 
 ![NavChangeCompany RVL](Media/NavChangeCompany.png)
 
+This function automatically opens Select Company dialog, selects a company and closes the dialog.
+
 ![ChangeCompany RVL](Media/ChangeCompany.png)
 
 ### NavNavigate
@@ -38,6 +40,8 @@ Changes current company. Specify name of a company to open.
 Navigates to a specific page using address bar.
 
 ![NavNavigate RVL](Media/NavNavigate.png)
+
+This function clicks in the address area, enters a page address and hits enter key.
 
 ![Navigate RVL](Media/Navigate.png)
 
@@ -47,6 +51,8 @@ Applies a filter to table data.
 
 ![NavFilterGrid RVL](Media/NavFilterGrid.png)
 
+This function enters a filter value, then selects a field for filtering and clicks the filter button.
+
 ![FilterGrid RVL](Media/FilterGrid.png)
 
 ### NavSelectFastTab
@@ -54,6 +60,8 @@ Applies a filter to table data.
 Selects Fast Tab with a given name.
 
 ![NavSelectFastTab RVL](Media/NavSelectFastTab.png)
+
+This function expands a given tab and scrolls to it if necessary.
 
 ![SelectFastTab RVL](Media/SelectFastTab.png)
 
@@ -75,7 +83,7 @@ Prints/saves document to PDF into OutputFiles folder.
 
 ![NavPrintPdf RVL](Media/NavPrintPdf.png)
 
-Open this dialog before calling the function.
+Open this dialog before calling the function. It opens menu Print... > PDF and then enters the file name and presses ncessary buttons to do the job.
 
 ![PrintPdf RVL](Media/PrintPdf.png)
 
@@ -85,6 +93,8 @@ Ensures that specific columns are visible. When you call this function the grid 
 
 ![NavAddColumns RVL](Media/NavAddColumns.png)
 
+This function righ clicks the grid and selects Choose Columns... menu item. Then adds necessary columns and clicks OK button.
+
 ![Columns RVL](Media/Columns.png)
 
 ### NavRemoveColumns
@@ -92,6 +102,8 @@ Ensures that specific columns are visible. When you call this function the grid 
 Ensures that specific columns are NOT visible. When you call this function the grid should be visible on screen.
 
 ![NavRemoveColumns RVL](Media/NavRemoveColumns.png)
+
+This function righ clicks the grid and selects Choose Columns... menu item. Then removes necessary columns and clicks OK button.
 
 ### SetOutputValue
 
