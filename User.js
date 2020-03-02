@@ -250,6 +250,58 @@ function NavPrintPdf(/**string*/ baseName, /**string*/ number)
 }
 
 /**
+ * Ensures that specific columns are visible. When you call this function the grid should be visible on screen.
+ * @param grid Repository ID of a grid object.
+ * @param list Comma separated list of column names (case-sensitive).
+ */
+function NavAddColumns(/**objectId*/ grid, /**string*/ list)
+{
+	SeS(grid).DoRClick();
+	SeS("G_Choose_Columns").DoClick();
+	
+	var items = list.split(",");
+	for(var i = 0; i < items.length; i++)
+	{
+		var item  = Global.DoTrim(items[i]);
+		var columns = SeS('G_Available_Columns');
+		var index = columns.GetItemIndexByName(item);
+		if (index >= 0)
+		{
+			columns.DoSelectItem(item);
+			SeS('G_Add_Column').DoClick();
+		}
+	}
+	
+	SeS('G_Columns_OK').DoClick();
+}
+
+/**
+ * Ensures that specific columns are NOT visible. When you call this function the grid should be visible on screen.
+ * @param grid Repository ID of a grid object.
+ * @param list Comma separated list of column names (case-sensitive).
+ */
+function NavRemoveColumns(/**objectId*/ grid, /**string*/ list)
+{
+	SeS(grid).DoRClick();
+	SeS("G_Choose_Columns").DoClick();
+	
+	var items = list.split(",");
+	for(var i = 0; i < items.length; i++)
+	{
+		var item  = Global.DoTrim(items[i]);
+		var columns = SeS('G_Show_Columns');
+		var index = columns.GetItemIndexByName(item);
+		if (index >= 0)
+		{
+			columns.DoSelectItem(item);
+			SeS('G_Remove_Column').DoClick();
+		}
+	}
+	
+	SeS('G_Columns_OK').DoClick();
+}
+
+/**
  * Writes key/value pair to Output.xlsx
  * @param key
  * @param value
@@ -258,7 +310,6 @@ function SetOutputValue(/**string*/ key, /**string*/ value)
 {
 	Global.SetProperty(key, value, "%WORKDIR%\\Output.xlsx");
 }
-
 
 /**
  * Reads value from Output.xlsx

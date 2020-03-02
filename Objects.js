@@ -710,5 +710,271 @@ var saved_script_objects={
 		"object_library": "UIAutomation",
 		"window_name": "regex:.*Microsoft Dynamics NAV",
 		"location": "{91115A6C-BE32-4f71-8AA5-5979F9364B54}/Export File/Save"
+	},
+	"G_Choose_Columns": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "Choose Columns..."
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Choose Columns...",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:.*Microsoft Dynamics NAV",
+		"location": "{91115A6C-BE32-4f71-8AA5-5979F9364B54}/DropDown/Choose Columns..."
+	},
+	"G_Available_Columns": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "List"
+						},
+						{
+							"property": "Name",
+							"value": "Available columns:"
+						},
+						{
+							"property": "AutomationId",
+							"value": "19790809-0042-0001-0030-000000000003"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAList",
+		"object_flavor": "List",
+		"object_name": "G_Available_Columns",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:Customize.*",
+		"location": "19790809-0042-0000-0000-000000000000/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000902/19790809-0042-0001-0030-000000000003"
+	},
+	"G_Add_Column": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "Add >>"
+						},
+						{
+							"property": "AutomationId",
+							"value": "19790809-0042-0001-0030-000000000005"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "G_Add_Column",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:Customize.*",
+		"location": "19790809-0042-0000-0000-000000000000/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/19790809-0042-0001-0030-000000000005"
+	},
+	"G_Remove_Column": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "<< Remove"
+						},
+						{
+							"property": "AutomationId",
+							"value": "19790809-0042-0001-0030-000000000006"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "G_Remove_Column",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:Customize.*",
+		"location": "19790809-0042-0000-0000-000000000000/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/19790809-0042-0001-0030-000000000006"
+	},
+	"G_Show_Columns": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "List"
+						},
+						{
+							"property": "Name",
+							"value": "Show columns in this order:"
+						},
+						{
+							"property": "AutomationId",
+							"value": "19790809-0042-0001-0030-000000000004"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAList",
+		"object_flavor": "List",
+		"object_name": "G_Show_Columns",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:Customize.*",
+		"location": "19790809-0042-0000-0000-000000000000/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000903/PersonalizationPanel/19790809-0042-0000-0000-000000000900/19790809-0042-0000-0000-000000000904/19790809-0042-0001-0030-000000000004"
+	},
+	"G_Columns_OK": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "OK"
+						},
+						{
+							"property": "AutomationId",
+							"value": "{B594146A-9CEF-4767-AE76-E9721CD6FB50}"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r12_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "OK",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:Customize.*",
+		"location": "19790809-0042-0000-0000-000000000000/actionBar/{B594146A-9CEF-4767-AE76-E9721CD6FB50}"
 	}
 };
