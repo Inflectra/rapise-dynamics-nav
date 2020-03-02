@@ -75,7 +75,7 @@ Maximizes window with a given object.
 
 Builds full file path.
 
-![NavMakeFileName RVL](Media/NavMakeFileName.png)
+![NavMakeFileName RVL](Media/NavMakeFilename.png)
 
 ### NavPrintPdf
 
