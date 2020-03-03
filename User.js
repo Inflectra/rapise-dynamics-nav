@@ -16,6 +16,11 @@ if (!g_recording)
 	}
 }
 
+if (typeof(g_inTestSet) == "undefined")
+{
+	g_inTestSet = false;
+}
+
 function LogAssert(/**string*/ msg)
 {
 	Log(msg);
@@ -45,8 +50,11 @@ function NavLaunch()
 	
 	if (_NavIsRunning())
 	{
-		Tester.Message("Dynamics AX Client is already running");
-		return true;
+		Tester.Message("Dynamics NAV Client is already running");
+		if (!g_inTestSet)
+		{
+			return true;
+		}
 	}
 
 	var pfFolder = Global.GetSpecialFolderPath("ProgramFilesX86");
@@ -72,6 +80,11 @@ function NavLaunch()
 	{ 
 		Tester.Message("Dynamics NAV Client is not installed on this computer"); 
 		return false; 
+	}
+	
+	if (_NavIsRunning() && g_inTestSet)
+	{
+		Global.DoKillByName('Microsoft.Dynamics.Nav.Client.exe');
 	}
 	
 	Tester.Message("Dynamics NAV Client is not started."); 
