@@ -697,5 +697,95 @@ var saved_script_objects={
 		"object_library": "UIAutomation",
 		"window_name": "regex:.* - Customer Card.*",
 		"location": "{00000015-0000-0000-0108-0000836BD2D2}/{00000015-0000-0000-0108-0000836BD2D2}/LayoutPlaceholder/Pane/label"
+	},
+	"Duplicate_Yes": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "Yes"
+						},
+						{
+							"property": "AutomationId",
+							"value": "{ED4B78B8-F937-4e40-925E-639BAD0329C6}"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r6_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Duplicate_Yes",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:.*Microsoft Dynamics NAV",
+		"location": "000013c4-0000-0007-0405-e803836bd2d2/000013c4-0000-0007-0405-e803836bd2d2/LayoutPlaceholder/dialogActionBar/{ED4B78B8-F937-4e40-925E-639BAD0329C6}"
+	},
+	"OK2": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation2",
+				"location": {
+					"location": [
+						{
+							"property": "ControlType",
+							"value": "Button"
+						},
+						{
+							"property": "Name",
+							"value": "OK"
+						},
+						{
+							"property": "AutomationId",
+							"value": "{B594146A-9CEF-4767-AE76-E9721CD6FB50}"
+						}
+					],
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			},
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "regex:(WindowsForms10.)?Window.\\d+.app[a-z0-9_\\.]+"
+				}
+			}
+		],
+		"window_class": "WindowsForms10.Window.8.app.0.7b8f05_r6_ad1",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "OK",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:.* - Contact Duplicates.*",
+		"location": "{0000140E-0000-0000-0108-0000836BD2D2}/{0000140E-0000-0000-0108-0000836BD2D2}/LayoutPlaceholder/ActionBar/{B594146A-9CEF-4767-AE76-E9721CD6FB50}"
 	}
 };
