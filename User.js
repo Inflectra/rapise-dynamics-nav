@@ -197,8 +197,10 @@ function NavFilterGrid(/**string*/ value, /**string*/ field)
 /**
  * Selects Fast Tab with a given name.
  * @param tab Name of a tab to expand and scroll to.
+ * @param toggleAdditionalFields Set to `true` to click on `Show more fields` button inside the tab. Supported in Rapise 6.4+.
+ * @param additionalFieldsButtonName If `Show more fields` button is named differently in your locale you need to specify it. Supported in Rapise 6.4+.
  */
-function NavSelectFastTab(/**string*/ tab)
+function NavSelectFastTab(/**string*/ tab, /**boolean*/ toggleAdditionalFields, /**string*/ additionalFieldsButtonName)
 {
 	if (!tab)
 	{
@@ -222,7 +224,7 @@ function NavSelectFastTab(/**string*/ tab)
 					var obj = SeSUIAutomationFindByAutomationId(ae, "ContentPlaceholder", DynamicsNAVFastTabsRule);
 					if (obj)
 					{
-						obj.DoSelectTab(tab);
+						obj.DoSelectTab(tab, toggleAdditionalFields, additionalFieldsButtonName);
 						return;
 					}
 				}
