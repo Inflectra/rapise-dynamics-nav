@@ -3,9 +3,30 @@
 Framework for testing Dynamics NAV 2017-2018 RoleTailored Client.
 
 - Reusable functions are defined in `User.js`.
-- Data for each test case is defined in `Data.xlsx`.
 - `Dropdowns.xlsx` contains lists of values for RVL dropdowns.
 - `Output.xlsx` is used to persist data between test executions.
+
+Data for each test case is defined in `Data100.xlsx` and `Data110.xlsx`.
+
+- `Data100.xlsx` is used for execution on Dynamics 2017 NAV demo instance.
+- `Data110.xlsx` is used for execution on Dynamics 2018 NAV demo instance.
+
+`TestInit` function located in `User.js` contains the lines that copy correponsing data file to `Data.xlsx`.
+
+```javascript
+if (NavVersion() == 110)
+{
+    g_helper.Copy("Data110.xlsx", "Data.xlsx");
+}
+else
+{
+    g_helper.Copy("Data100.xlsx", "Data.xlsx");	
+}
+```
+
+The way of test parameterization and reading data from an Excel spreadsheet is described in the knowledge base:
+
+[Data-driven testing with spreadsheets and RVL](https://www.inflectra.com/Support/KnowledgeBase/KB357.aspx)
 
 ## Common Functions
 
