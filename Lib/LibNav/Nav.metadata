@@ -1,0 +1,104 @@
+{
+	"Nav": {
+		"window_name": "Global Objects",
+		"flavor": "GlobalObject",
+		"actions": [
+			{
+				"name": "Launch",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {}
+			},
+			{
+				"name": "Version",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {}
+			},
+			{
+				"name": "Close",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {}
+			},
+			{
+				"name": "ChangeCompany",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ company",
+				"paramInfo": {}
+			},
+			{
+				"name": "Navigate",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ page, /**string*/ company",
+				"paramInfo": {}
+			},
+			{
+				"name": "FilterGrid",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ value, /**string*/ field",
+				"paramInfo": {}
+			},
+			{
+				"name": "SelectFastTab",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ tab, /**boolean*/ toggleAdditionalFields, /**string*/ additionalFieldsButtonName",
+				"paramInfo": {}
+			},
+			{
+				"name": "MaximizeWindow",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**objectId*/ objectId",
+				"paramInfo": {}
+			},
+			{
+				"name": "MakeFileName",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ root, /**string*/ baseName, /**string*/ number, /**string*/ extension",
+				"paramInfo": {}
+			},
+			{
+				"name": "PrintPdf",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**string*/ baseName, /**string*/ number",
+				"paramInfo": {}
+			},
+			{
+				"name": "AddColumns",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**objectId*/ grid, /**string*/ list",
+				"paramInfo": {}
+			},
+			{
+				"name": "RemoveColumns",
+				"description": "",
+				"type": "",
+				"returns": "",
+				"signature": "/**objectId*/ grid, /**string*/ list",
+				"paramInfo": {}
+			}
+		]
+	}
+}

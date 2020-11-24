@@ -32,6 +32,14 @@ The way of test parameterization and reading data from an Excel spreadsheet is d
 
 All functions are defined in `User.js`. Look into this file for details.
 
+**Note:** If you are on Rapise 6.6+ you may use global `Nav` object.
+
+![Global Object](Media/Nav.png)
+
+Every function with `Nav` prefix is now also an action of `Nav` (without the prefix). These two variants are equavalent:
+
+![Equivalents](Media/FunctionNav.png)
+
 ### NavLaunch
 
 Launches Dynamics NAV desktop client and waits for it to show up on screen.
